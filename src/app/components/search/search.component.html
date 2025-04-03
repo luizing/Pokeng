@@ -6,9 +6,15 @@
       <img src="/images/pokebola.png" alt="Pokebola" />
     </button>
   </form>
-  <div class="Result">
-    @if (showCard) {
-      <app-card [id]= "id" [name]="pokemonName" [sprite]="sprite" [types]="pokemonType"></app-card>
-    }
-  </div>
+  
+  <div class="list-Container">
+  
+    @for (p of pokemons; track p.id){
+    <app-card [name] = "p.name" [sprite] = "p.sprites.front_default" [id]="p.id" ></app-card>
+  }
+
+
 </div>
+
+
+  </div>
