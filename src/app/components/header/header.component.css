@@ -1,0 +1,14 @@
+.header-container {
+  background: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-pokemon-image {
+  height: 15rem;
+}
+
+.header-logo-image {
+  height: 10rem;
+}
