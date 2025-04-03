@@ -8,7 +8,9 @@ import { Component, Input } from '@angular/core';
 })
 export class CardComponent {
 
+  @Input() id = "";
   @Input() name = "";
   @Input() sprite = "";
+  @Input() types = "";
 
 }

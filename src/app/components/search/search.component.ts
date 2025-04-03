@@ -18,9 +18,11 @@ export class SearchComponent implements OnInit {
   private http = inject(HttpClient);
 
   showCard = false;
+  id = "";
   pokemonName = "";
   pokemons:any = [];
   sprite="";
+  pokemonType = "";
 
   searchForm = new FormGroup({
     name: new FormControl('', Validators.required),
@@ -37,7 +39,6 @@ export class SearchComponent implements OnInit {
           this.pokemons.push(pokemon)
         });
        });
-        
        });
       };
 
@@ -51,6 +52,8 @@ export class SearchComponent implements OnInit {
         console.log(result);
         this.pokemonName = result.name;
         this.sprite = result.sprites.front_default;
+        this.id = result.id;
+        this.pokemonType = result.types;
       });
   }
 

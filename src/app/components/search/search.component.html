@@ -8,7 +8,7 @@
   </form>
   <div class="Result">
     @if (showCard) {
-      <app-card [name]="pokemonName" [sprite]="sprite"></app-card>
+      <app-card [id]= "id" [name]="pokemonName" [sprite]="sprite" [types]="pokemonType"></app-card>
     }
   </div>
 </div>
