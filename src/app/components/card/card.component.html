@@ -7,8 +7,12 @@
     </div>
 
     <div class= "TypeContainer">
-        <p class="PokemonCardType" id = "Fogo" >teste</p>
-    <p class="PokemonCardType" id = "Agua"> teste </p>
+    
+  
+        @for (t of types; track t.type.name){
+            
+            <p class="PokemonCardType" id = {{t.type.name}} >{{t.type.name}}</p>
+            }
     </div>
 
 </div>

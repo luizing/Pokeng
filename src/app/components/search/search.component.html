@@ -10,7 +10,7 @@
   <div class="list-Container">
   
     @for (p of pokemons; track p.id){
-    <app-card [name] = "p.name" [sprite] = "p.sprites.front_default" [id]="p.id" ></app-card>
+    <app-card [name] = "p.name" [sprite] = "p.sprites.front_default" [id]="p.id" [types]="p.types" ></app-card>
   }
 
 

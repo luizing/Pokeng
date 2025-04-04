@@ -20,9 +20,11 @@ export class SearchComponent implements OnInit {
   showCard = false;
   id = "";
   pokemonName = "";
-  pokemons:any = [];
   sprite="";
   pokemonType = "";
+
+  pokemons:any = [];
+
 
   searchForm = new FormGroup({
     name: new FormControl('', Validators.required),

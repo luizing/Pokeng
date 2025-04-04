@@ -11,6 +11,6 @@ export class CardComponent {
   @Input() id = "";
   @Input() name = "";
   @Input() sprite = "";
-  @Input() types = "";
+  @Input() types: any[] = []; 
 
 }

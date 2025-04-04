@@ -20,8 +20,8 @@
     width: auto;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+    align-items:center;
+    justify-content: space-evenly;
 
 }
 
@@ -40,12 +40,93 @@
 
 }
 
-#Agua{
-    background-color: #5a9ca4;
-    color: #ffbc2c;
+/*Tipos*/
+#normal {
+    background-color: #A8A878;
+    color: #FFF;
 }
 
-#Fogo{
-    background-color: #e53800;
-    color: #fed276;
+#fire {
+    background-color: #F08030;
+    color: #FFF9E4;
+}
+
+#water {
+    background-color: #5A9CA4;
+    color: #FFBC2C;
+}
+
+#electric {
+    background-color: #F8D030;
+    color: #8B6D0A;
+}
+
+#grass {
+    background-color: #78C850;
+    color: #2C4C21;
+}
+
+#ice {
+    background-color: #98D8D8;
+    color: #2A4E4E;
+}
+
+#fighting {
+    background-color: #C03028;
+    color: #FFD4D1;
+}
+
+#poison {
+    background-color: #A040A0;
+    color: #FFC8FF;
+}
+
+#ground {
+    background-color: #E0C068;
+    color: #5C4A1A;
+}
+
+#flying {
+    background-color: #A890F0;
+    color: #2C1C6E;
+}
+
+#psychic {
+    background-color: #F85888;
+    color: #5E0D29;
+}
+
+#bug {
+    background-color: #A8B820;
+    color: #3C3F0D;
+}
+
+#rock {
+    background-color: #B8A038;
+    color: #4A3E0F;
+}
+
+#ghost {
+    background-color: #705898;
+    color: #E0D8F0;
+}
+
+#dragon {
+    background-color: #7038F8;
+    color: #D8C8FF;
+}
+
+#dark {
+    background-color: #705848;
+    color: #E8E0D8;
+}
+
+#steel {
+    background-color: #B8B8D0;
+    color: #3C3C4A;
+}
+
+#fairy {
+    background-color: #EE99AC;
+    color: #6E2A3C;
 }
